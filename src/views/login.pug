@@ -1,0 +1,17 @@
+extends ../layouts/nofooter
+
+block variables
+	- const title = "Login page";
+
+
+block content
+
+div.login__wrap
+    label
+        p.login__name Enter your name
+        input(type="text" placeholder="Enter your name")
+    label
+        p.login__pass Enter your passsword
+        input(type="password")
+
+

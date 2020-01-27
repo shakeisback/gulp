@@ -6,26 +6,7 @@
 @import 'base/general';
 @import '../blocks/components/components';
 @import '../blocks/modules/modules';
-
-[data-component^='dropdown'] {
-  .drop_list {
-    display: none;
-  }
-
-  .drop_btn {
-    &.active {
-      + .drop_list {
-        display: block;
-      }
-    }
-  }
-}
-
-.lang {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: black;
-}
+@import 'base/scss/footer.scss';
+@import 'base/scss/header.scss';
+@import 'base/scss/loginpage.scss';
+@import 'base/scss/mainpage.scss';

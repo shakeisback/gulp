@@ -1,0 +1,39 @@
+.container {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main__content {
+    display: flex;
+    margin-top: 25px;
+}
+
+.section {
+    width: 65%;
+    min-height: 400px;
+    margin-right: 10px;
+    background-color: rgb(233, 227, 227);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: $outline;
+}
+
+.aside {
+    margin-left: 10px;
+    width: calc(100% - 65% - 20px);
+    background-color: rgb(233, 227, 227);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    outline: $outline;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}

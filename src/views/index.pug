@@ -1,22 +1,12 @@
-extends layouts/default
-include helpers/mixins
+extends ../layouts/default
 
 block variables
-	- const title = "Logos gulp-pug-starter"
+	- const title = "Main block";
 
 block content
-	h1.heading Main page
-
-	button#js-lang.lang
-
-	div(data-component="dropdown-1")
-		button.drop_btn Lang
-		ul.drop_list
-			li ua
-			li ru
-
-	div(data-component="dropdown-2")
-		button.drop_btn Salary
-		ul.drop_list
-			li uah
-			li rus
+    div.container
+        div.main__content
+            section.section
+                h3 section
+            aside.aside
+                h3 aside    

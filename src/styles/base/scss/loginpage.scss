@@ -1,0 +1,14 @@
+.login__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__name {
+    font-size: medium;
+    color: blue;
+}
+
+.login__pass {
+    font-size: medium;
+    color: green;
+}
